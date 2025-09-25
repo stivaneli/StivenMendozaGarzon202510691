@@ -2,7 +2,7 @@
 using namespace std;
 
 void mostrarTabla(int number) {
-    for (int i = 1; i <= 10; i++) {
+    for (int i = 10; i >= 1; i--) {
         cout << number << " x " << i << " = " << number * i << endl;
     }
 }
